@@ -1,0 +1,44 @@
+{
+  "name": "inventory-frontend",
+  "homepage": "https://ShivaShankar401.github.io/InventoryManagement",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.3.0",
+    "chart.js": "^4.2.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.0.0"
+  }
+}
